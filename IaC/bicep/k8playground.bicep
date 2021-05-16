@@ -6,7 +6,7 @@ param resourceTags object = {
 
 resource acr 'Microsoft.ContainerRegistry/registries@2020-11-01-preview' = {
   location: 'westus'
-  name: 'k8repo'
+  name: 'sheridank8Repo'
   sku: {
    name: 'Basic'
   }
