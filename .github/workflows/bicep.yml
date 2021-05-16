@@ -23,11 +23,7 @@ jobs:
     - uses: azure/login@v1
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
- 
-    - name: Azure Bicep Build
-      run: |
-        az bicep build --file IaC/bicep/main.bicep
-      
+  
     - name: Deploy Azure Bicep
       uses: Azure/arm-deploy@v1
       with:
