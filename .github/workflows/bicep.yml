@@ -34,4 +34,4 @@ jobs:
         scope: subscription
         region: "westus"
         subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
-        template: ./IaC/bicep/main.json 
+        template: ./IaC/bicep/main.bicep 
