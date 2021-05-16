@@ -7,13 +7,10 @@ param location string
 @description('What to prefix all the resources with')
 param prefix string
 
+@description('Specified the list of tags')
+param resourceTags object
 
 
-param resourceTags object = {
-  Environment: 'Production'
-  Project: 'k8Playground'
-  Author: 'Brian Sheridan'
-}
 
 
 @minLength(5)
