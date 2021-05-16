@@ -1,6 +1,7 @@
 param resourceTags object = {
-  Environment: 'Dev'
-  Project: 'Playground'
+  Environment: 'Production'
+  Project: 'k8Playground'
+  Author: 'Brian Sheridan'
 }
 
 
