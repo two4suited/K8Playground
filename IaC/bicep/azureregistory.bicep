@@ -19,7 +19,7 @@ param resourceTags object = {
 @minLength(5)
 @maxLength(50)
 @description('Specifies the name of the azure container registry.')
-param acrName string = '${prefix}_${uniqueString(resourceGroup().id)}_repo' // must be globally unique
+param acrName string = '${prefix}k8playgroundrepo' // must be globally unique
 
 @description('Enable admin user that have push / pull permission to the registry.')
 param acrAdminUserEnabled bool = false
