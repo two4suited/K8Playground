@@ -40,4 +40,4 @@ jobs:
       with:
         resourceGroupName: ${{ env.ResourceGroupName }}
         subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
-        template: ./IaC/bicep/main.json 
+        template: ./IaC/bicep/k8playground.json 
