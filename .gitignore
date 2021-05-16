@@ -348,3 +348,5 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+IaC/.terraform.lock.hcl
+IaC/.terraform/providers/registry.terraform.io/hashicorp/azurerm/2.59.0/darwin_amd64/terraform-provider-azurerm_v2.59.0_x5
